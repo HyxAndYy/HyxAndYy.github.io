@@ -1,3 +1,4 @@
+
 .hide{
 	display: none;
 }
@@ -9,16 +10,27 @@
 .mi{
 	position: absolute;
 	zoom:3.3;
-	z-index: 101;
+	z-index: 102;
 	left: 50%;
 	top: 65%;
 }
 .dia{
 	position: absolute;
 	z-index: 100;
-	zoom:1.6;
-	left: -4%;
+	zoom:1.5;
+	left: -2%;
 	top: 25%;
+}
+
+.text{
+	position: absolute;
+	z-index: 101;
+	width: 550px;
+	height: 320px;
+	/*border: green 2px solid;*/
+	left: 19%;
+	top: 31%;
+	font-size: 80px;
 }
 .bgi{
 	position: relative;
