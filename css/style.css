@@ -30,7 +30,9 @@
 	/*border: green 2px solid;*/
 	left: 19%;
 	top: 31%;
-	font-size: 80px;
+	font-size: 70px;
+	font-family: '微软雅黑';
+	text-align: center;
 }
 .bgi{
 	position: relative;
