@@ -25,7 +25,7 @@ $(document).ready(function(){
 		}else if(/^20|2[0-7]$/.test(dialog_index)){
 			$('#mi').attr('src','image/dave_shyness.png');
 		}else if(/^2[8-9]|30$/.test(dialog_index)){
-			$('#mi').attr('src','image/dave_shyness.png');
+			$('#mi').attr('src','image/dave_normal.png');
 		}else if(/^3[1-5]$/.test(dialog_index)){
 			$('#mi').attr('src','image/jerry_hello.png');
 		}else{
