@@ -18,8 +18,16 @@ $(document).ready(function(){
 		//通过此函数变换图片
 		if(/^[3-6]$/.test(dialog_index)){
 			$('#mi').attr('src','image/dave_happy.png');
-		}else if(/^[7-9]|1[0-5]$/.test(dialog_index)){
+		}else if(/^[7-9]|1[0-7]$/.test(dialog_index)){
 			$('#mi').attr('src','image/dave_mknote.png');
+		}else if(/^1[8-9]$/.test(dialog_index)){
+			$('#mi').attr('src','image/dave_sohappy.png');
+		}else if(/^20|2[0-7]$/.test(dialog_index)){
+			$('#mi').attr('src','image/dave_shyness.png');
+		}else if(/^2[8-9]|30$/.test(dialog_index)){
+			$('#mi').attr('src','image/dave_shyness.png');
+		}else if(/^3[1-3]$/.test(dialog_index)){
+			$('#mi').attr('src','imagejerry_hello.png');
 		}else{
 			$('#mi').attr('src','image/dave_normal.png');
 		}
