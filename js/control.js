@@ -30,7 +30,7 @@ $(document).ready(function(){
 			$('#mi').attr('src','image/dave_shyness.png');
 		}else if(/^3[1-5]$/.test(dialog_index)){
 			$('#mi').attr('src','image/jerry_hello.png');
-		}else 
+		}
 
 
 
