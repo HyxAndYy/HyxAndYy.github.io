@@ -29,8 +29,8 @@ $(document).ready(function(){
 		}else if(/^3[1-5]$/.test(dialog_index)){
 			$('#mi').attr('src','image/jerry_hello.png');
 		}else if(dialog_index==36){
-			$('#minion').fadeOut;
-			$('#dialog').fadeOut;
+			$('#minion').fadeOut();
+			$('#dialog').fadeOut();
 		}else{
 			$('#mi').attr('src','image/dave_normal.png');
 		}
