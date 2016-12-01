@@ -16,9 +16,7 @@ $(document).ready(function(){
 	$('#mi').click(function(){
 
 		//通过此函数变换图片
-		if(dialog_index==2){
-			$('#mi').attr('src','image/dave_normal.png');
-		}else if(/^[3-6]$/.test(dialog_index)){
+		if(/^[3-6]$/.test(dialog_index)){
 			$('#mi').attr('src','image/dave_happy.png');
 		}else if(/^[7-9]|1[0-7]$/.test(dialog_index)){
 			$('#mi').attr('src','image/dave_mknote.png');
@@ -30,6 +28,8 @@ $(document).ready(function(){
 			$('#mi').attr('src','image/dave_shyness.png');
 		}else if(/^3[1-5]$/.test(dialog_index)){
 			$('#mi').attr('src','image/jerry_hello.png');
+		}else{
+			$('#mi').attr('src','image/dave_normal.png');
 		}
 
 
@@ -41,8 +41,9 @@ $(document).ready(function(){
 				dialog_index++;
 
 		}else if(dialog_index==36){
-			$('#minion').fadeOut();
-			$('#dialog').fadeOut();
+			$('#mi').fadeOut();
+			$('#dia').fadeOut();
+			$('#text').fadeOut();
 		}else{
 
 			$('#dia').animate({
