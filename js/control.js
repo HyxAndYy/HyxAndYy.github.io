@@ -28,7 +28,7 @@ $(document).ready(function(){
 			$('#mi').attr('src','image/dave_shyness.png');
 		}else if(/^3[1-5]$/.test(dialog_index)){
 			$('#mi').attr('src','imagejerry_hello.png');
-		}else if('36'.test(dialog_index)){
+		}else if(/^36$/.test(dialog_index)){
 			$('#minion').fadeOut;
 			$('#dialog').fadeOut;
 		}else{
