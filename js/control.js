@@ -18,7 +18,7 @@ $(document).ready(function(){
 		//通过此函数变换图片
 		if(/^[3-6]$/.test(dialog_index)){
 			$('#mi').attr('src','image/dave_happy.png');
-		}else if(/^[7-15]$/.test(dialog_index)){
+		}else if(/^[7-9]|1[0-5]$/.test(dialog_index)){
 			$('#mi').attr('src','image/dave_mknote.png');
 		}else{
 			$('#mi').attr('src','image/dave_normal.png');
