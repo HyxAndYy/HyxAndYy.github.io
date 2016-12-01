@@ -16,8 +16,10 @@ $(document).ready(function(){
 	$('#mi').click(function(){
 
 		//通过此函数变换图片
-		if(/^3|4$/.test(dialog_index)){
+		if(/^[3-6]$/.test(dialog_index)){
 			$('#mi').attr('src','image/dave_happy.png');
+		}else if(/^[7-9|10-15]$/.test(dialog_index)){
+			$('#mi').attr('src','image/dave_mknote.png');
 		}else{
 			$('#mi').attr('src','image/dave_normal.png');
 		}
